@@ -21,6 +21,7 @@
 		0DEBB823192FFE1500CDCB86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEBB805192FFE1500CDCB86 /* UIKit.framework */; };
 		0DEBB82B192FFE1500CDCB86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DEBB829192FFE1500CDCB86 /* InfoPlist.strings */; };
 		0DEBB82D192FFE1500CDCB86 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEBB82C192FFE1500CDCB86 /* Git_TestTests.m */; };
+		0DEBB8381930036300CDCB86 /* MKBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEBB8371930036300CDCB86 /* MKBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0DEBB828192FFE1500CDCB86 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		0DEBB82A192FFE1500CDCB86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0DEBB82C192FFE1500CDCB86 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		0DEBB8361930036300CDCB86 /* MKBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBTest.h; sourceTree = "<group>"; };
+		0DEBB8371930036300CDCB86 /* MKBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				0DEBB810192FFE1500CDCB86 /* MKBAppDelegate.h */,
 				0DEBB811192FFE1500CDCB86 /* MKBAppDelegate.m */,
+				0DEBB8361930036300CDCB86 /* MKBTest.h */,
+				0DEBB8371930036300CDCB86 /* MKBTest.m */,
 				0DEBB813192FFE1500CDCB86 /* Main.storyboard */,
 				0DEBB816192FFE1500CDCB86 /* MKBViewController.h */,
 				0DEBB817192FFE1500CDCB86 /* MKBViewController.m */,
@@ -251,6 +256,7 @@
 			files = (
 				0DEBB818192FFE1500CDCB86 /* MKBViewController.m in Sources */,
 				0DEBB80E192FFE1500CDCB86 /* main.m in Sources */,
+				0DEBB8381930036300CDCB86 /* MKBTest.m in Sources */,
 				0DEBB812192FFE1500CDCB86 /* MKBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
